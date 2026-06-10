@@ -1,129 +1,249 @@
-03_Type_Conversion - imp_questions.md
+# 03_Type_Conversion - Important Questions
 
-1. What is Type Conversion?
+---
 
-Answer:
+## 1. What is Type Conversion?
+
+### Answer
 Ek datatype ko dusre datatype me convert karna.
 
-2. What is Explicit Conversion?
+---
 
-Answer:
+## 2. What is Explicit Conversion?
+
+### Answer
 Developer khud conversion kare.
 
-Number("123")
-String(123)
-Boolean(1) 3. What is Implicit Conversion?
+```js
+Number("123");
+String(123);
+Boolean(1);
+```
 
-Answer:
+---
+
+## 3. What is Implicit Conversion?
+
+### Answer
 JavaScript automatically conversion kare.
-"5" + 1
 
-Output:
+```js
+"5" + 1;
+```
 
-"51" 4. What is Type Coercion?
+**Output:**
 
-Answer:
+```js
+"51"
+```
+
+---
+
+## 4. What is Type Coercion?
+
+### Answer
 Automatic datatype conversion by JavaScript.
 
-5. Difference between Explicit and Implicit Conversion?
+---
 
-Answer:
-Explicit → Developer kare
-Implicit → JavaScript kare
+## 5. Difference between Explicit and Implicit Conversion?
 
-6. Output of Number("") ?
+### Answer
 
-Answer:
-Number("")
-Output:
+| Explicit | Implicit |
+|----------|----------|
+| Developer kare | JavaScript kare |
 
+---
+
+## 6. Output of Number("") ?
+
+### Answer
+
+```js
+Number("");
+```
+
+**Output:**
+
+```js
 0
+```
 
-7.  Output of Number(" ") ?
+---
 
-Answer:
-Number(" ")
-Output:
+## 7. Output of Number(" ") ?
 
+### Answer
+
+```js
+Number(" ");
+```
+
+**Output:**
+
+```js
 0
+```
 
-8. Output of Boolean("") ?
-   Answer:
+---
 
-Boolean("")
-Output:
+## 8. Output of Boolean("") ?
 
+### Answer
+
+```js
+Boolean("");
+```
+
+**Output:**
+
+```js
 false
+```
 
-9.  Output of Boolean("false") ?
-    Answer:
+---
 
-Boolean("false")
-Output:
+## 9. Output of Boolean("false") ?
+
+### Answer
+
+```js
+Boolean("false");
+```
+
+**Output:**
+
+```js
 true
+```
 
-Because non-empty string.
+**Reason:** Non-empty string is always truthy.
 
-10. Output of Boolean("0") ?
+---
 
-Answer:
-Boolean("0")
-Output:
+## 10. Output of Boolean("0") ?
 
+### Answer
+
+```js
+Boolean("0");
+```
+
+**Output:**
+
+```js
 true
+```
 
-11. Output of Boolean(NaN) ?
-    Answer:
+---
 
-Boolean(NaN)
-Output:
+## 11. Output of Boolean(NaN) ?
 
+### Answer
+
+```js
+Boolean(NaN);
+```
+
+**Output:**
+
+```js
 false
+```
 
-12. Difference between Number() and parseInt()?
-    Answer:
-    Number("10px")
+---
 
-Output:
+## 12. Difference between Number() and parseInt()?
 
+### Answer
+
+```js
+Number("10px");
+```
+
+**Output:**
+
+```js
 NaN
-parseInt("10px")
+```
 
-Output:
+```js
+parseInt("10px");
+```
 
+**Output:**
+
+```js
 10
+```
 
-13. Difference between == and === ?
-    Answer:
-    5 == "5"
+---
 
-Output:
+## 13. Difference between == and === ?
 
+### Answer
+
+```js
+5 == "5";
+```
+
+**Output:**
+
+```js
 true
-5 === "5"
+```
 
-Output:
+```js
+5 === "5";
+```
+
+**Output:**
+
+```js
 false
+```
 
-14. Why does [] + [] return empty string?
+---
 
-Answer:
+## 14. Why does [] + [] return empty string?
+
+### Answer
+
 Dono arrays string me convert ho jaati hain.
 
-[] + []
+```js
+[] + [];
+```
 
-Output:
+**Output:**
+
+```js
 ""
+```
 
-15. Difference between null == undefined and null === undefined?
+---
 
-Answer:
-null == undefined
+## 15. Difference between null == undefined and null === undefined?
 
-Output:
+### Answer
+
+```js
+null == undefined;
+```
+
+**Output:**
+
+```js
 true
-null === undefined
+```
 
-Output:
+```js
+null === undefined;
+```
 
+**Output:**
+
+```js
 false
+```
