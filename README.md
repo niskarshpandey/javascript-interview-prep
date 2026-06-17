@@ -1,33 +1,10 @@
-# JavaScript Interview Prep 🚀
-
-This repository contains my structured JavaScript interview preparation.
-
-Goal:
-- Strengthen JavaScript fundamentals
-- Prepare for frontend interviews
-- Build strong revision notes
-- Track daily progress
-
----
-
-## Folder Structure
-
-Each topic contains:
-
-- `index.js` → Lecture code
-- `notes.md` → Theory / revision notes
-- `example.js` → Practice examples
-- `questions.md` → Interview Q&A
-
----
-
 ## Topics Covered
 
 - [x] 01-Variables
 - [x] 02-DataTypes
 - [x] 03-ConversionOperations
 - [x] 04-Operations
-- [ ] 05-Comparisons
+- [x] 05-Comparisons
 - [ ] 06-Strings
 - [ ] 07-Numbers-And-Math
 - [ ] 08-Date-And-Time
@@ -47,7 +24,7 @@ Each topic contains:
 
 ## Progress
 
-Completed Topics: 4  
+Completed Topics: 5  
 Remaining Topics: Ongoing
 
 Consistency > Perfection
