@@ -5,7 +5,7 @@
 - [x] 03-ConversionOperations
 - [x] 04-Operations
 - [x] 05-Comparisons
-- [ ] 06-Strings
+- [x] 06-Strings
 - [ ] 07-Numbers-And-Math
 - [ ] 08-Date-And-Time
 - [ ] 09-Arrays
@@ -24,7 +24,7 @@
 
 ## Progress
 
-Completed Topics: 5  
+Completed Topics: 6  
 Remaining Topics: Ongoing
 
 Consistency > Perfection
