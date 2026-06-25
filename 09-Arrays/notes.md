@@ -36,6 +36,25 @@ const myArr = [0,1,2,3]
 
 ```js
 const myArr2 = new Array(1,2,3)
+
+# Creating Arrays in JavaScript
+
+## 1. Literal Syntax
+const arr = [1,2,3]
+
+- Most common
+- Easy to read
+- Recommended
+
+## 2. Constructor
+const arr = new Array(1,2,3)
+
+- Creates array using Array constructor
+- Less commonly used
+
+## Important
+new Array(3) -> Creates empty array of length 3
+new Array(1,2,3) -> Creates [1,2,3]
 ```
 
 ---
