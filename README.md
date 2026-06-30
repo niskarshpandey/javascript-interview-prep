@@ -10,8 +10,8 @@
 - [x] 08-Date-And-Time
 - [x] 09-Arrays
 - [x] 10-Objects
-- [ ] 11-Functions
-- [ ] 12-Scope-And-Hoisting
+- [x] 11-Functions
+- [x] 12-Scope-And-Hoisting
 - [ ] 13-Arrow-Functions
 - [ ] 14-Execution-Context
 - [ ] 15-Closures
@@ -24,7 +24,7 @@
 
 ## Progress
 
-Completed Topics: 10  
-Remaining Topics: 9
+Completed Topics: 12  
+Remaining Topics: 7
 
 Consistency > Perfection
