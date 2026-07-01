@@ -12,7 +12,7 @@
 - [x] 10-Objects
 - [x] 11-Functions
 - [x] 12-Scope-And-Hoisting
-- [ ] 13-Arrow-Functions
+- [x] 13-Arrow-Functions
 - [ ] 14-Execution-Context
 - [ ] 15-Closures
 - [ ] 16-Promises
@@ -24,7 +24,7 @@
 
 ## Progress
 
-Completed Topics: 12  
-Remaining Topics: 7
+Completed Topics: 13  
+Remaining Topics: 6
 
 Consistency > Perfection
